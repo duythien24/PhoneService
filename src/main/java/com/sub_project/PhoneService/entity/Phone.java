@@ -14,14 +14,9 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Phone {
-    //  Book
-//- id: Long
-//- title: String
-//- isbn: String
-//- year: int
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String id;
+    private int id;
     private String name;
     private int year;
     private int count;
